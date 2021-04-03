@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 10px;
+    color: #fff;
+}
+
+body {
+    background-color: #697E6F;
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1 {
+    font: 500 6.4rem 'Lora';
+    margin-top: 5.6rem;
+    line-height: 7.7rem;
+}
+
+h2 {
+    font: 500 2.4rem 'Lora';
+    line-height: 3.9rem;
+}
+
+h3 {
+    font: 500 1.4rem 'Lora';
+    margin-left: 1.3rem;
+    margin-right: 22.8rem;
+}
+
+p {
+    font: 400 1.8rem 'Open Sans';
+    line-height: 2.7rem;
+    padding-top: 2.4rem;
+}
+
+main {
+    width: 42.6rem;
+    margin-top: 0;
+}
+
+    header {
+        display: flex;
+        width: 35rem;
+        height: 3.4rem;
+        align-items: center;
+        justify-content: space-between;
+        grid-area: h;
+        margin-top: 1.7rem;
+        margin-bottom: 0;
+    }
+
+    .ds-menu {
+        width: 3rem;
+        justify-self: right;
+    }
+
+    .ds-flag-box {
+        background-color: rgba(135, 150, 140, 0.4);
+        width: 35rem;
+        height: 4.5rem;
+        border-radius: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10rem;
+    }
+
+    .ds-flag {
+        background-color: #E8BE4E;
+        color: #222;
+        width: 6rem;
+        height: 3rem;
+        border-radius: 3rem;
+        font: 700 1.2rem 'Open Sans';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ds-flag-text {
+        font: 400 1.4rem 'Open Sans';
+        padding-right: 1rem;
+    }
+
+    .ds-btn {
+        background-color: #E8BE4E;
+        color: #222;
+        border: none;
+        font: 500 1.8rem 'Lora';
+        height: 5.5rem;
+        width: 19rem;
+        margin-top: 4.8rem;
+        cursor: pointer;
+    }
+
+    .ds-btn:hover {
+        background-color: #FFD973;
+    }
+
+aside {
+    width: 67.3rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+    .ds-descript {
+        width: 25.5rem;
+        margin-top: 24rem;
+        align-self: flex-end;
+        z-index: 4;
+    }
+
+    hr {
+       width: 8rem;
+       height: 0.3rem;
+       background-color: #E8BE4E;
+       border: none;
+       margin: 2.4rem 0;
+    }
+
+    .ds-box-green {
+        background-color: #204A2C;
+        width: 65.5rem;
+        height: 64.6rem;
+        margin-top: 1.7rem;
+        position: absolute;
+        z-index: 1;
+
+    }
+
+    .ds-box-img {
+        background-image: url('assets/banner.jpg');
+
+        width: 65.5rem;
+        height: 64.6rem;
+        margin-left: 1.8rem;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .ds-box-gradiente {
+        background-image: linear-gradient(270deg, #697E6F 15.11%, rgba(105, 126, 111, 0) 100%);
+        width: 65.5rem;
+        height: 64.6rem;
+        margin-left: 1.8rem;
+        position: absolute;
+        z-index: 3;
+    }
+
